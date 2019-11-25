@@ -18,9 +18,9 @@ describe Rubicure::Girl do
   let(:mock_io) { StringIO.new }
 
   let(:girl_name)      { "cure_peace" }
-  let(:human_name)     { "黄瀬やよい" }
+  let(:human_name)     { "黄瀬 やよい" }
   let(:precure_name)   { "キュアピース" }
-  let(:cast_name)      { "金元寿子" }
+  let(:cast_name)      { "金元 寿子" }
   let(:created_date)   { date("2012-02-19") }
   let(:extra_names)    { %w[プリンセスピース ウルトラピース] }
   let(:color)          { "yellow" }
@@ -28,7 +28,7 @@ describe Rubicure::Girl do
     <<JANKEN
 プリキュアスマイルチャージ！
 GO! GO! Let's GO ピース！
-ピカピカピカリンジャンケンポン！ キュアピース！
+ぴかぴかぴかりんジャンケンポン！ キュアピース！
 JANKEN
   end
   let(:attack_messages) do
@@ -90,9 +90,9 @@ JANKEN
       let(:girl) do
         girl = Rubicure::Girl[
           girl_name:         "cure_miracle",
-          human_name:        "朝日奈みらい",
+          human_name:        "朝日奈 みらい",
           precure_name:      "キュアミラクル",
-          cast_name:         "高橋李依",
+          cast_name:         "高橋 李依",
           created_date:      "2016-02-07",
           extra_names:       nil,
           transform_message: nil,
@@ -122,7 +122,7 @@ JANKEN
         end
 
         it { expect(girl.name).to eq "キュアミラクル（ダイヤスタイル）" }
-        it { expect(girl.state_names).to eq ["朝日奈みらい", "キュアミラクル（ダイヤスタイル）"] }
+        it { expect(girl.state_names).to eq ["朝日奈 みらい", "キュアミラクル（ダイヤスタイル）"] }
       end
 
       context "transform! with ruby" do
@@ -131,7 +131,7 @@ JANKEN
         end
 
         it { expect(girl.name).to eq "キュアミラクル（ルビースタイル）" }
-        it { expect(girl.state_names).to eq ["朝日奈みらい", "キュアミラクル（ルビースタイル）"] }
+        it { expect(girl.state_names).to eq ["朝日奈 みらい", "キュアミラクル（ルビースタイル）"] }
       end
 
       context "cure_up_rapapa! with diamond" do
@@ -140,7 +140,7 @@ JANKEN
         end
 
         it { expect(girl.name).to eq "キュアミラクル（ダイヤスタイル）" }
-        it { expect(girl.state_names).to eq ["朝日奈みらい", "キュアミラクル（ダイヤスタイル）"] }
+        it { expect(girl.state_names).to eq ["朝日奈 みらい", "キュアミラクル（ダイヤスタイル）"] }
       end
     end
   end
@@ -328,7 +328,7 @@ JANKEN
     end
 
     context "don't have human_full_name" do
-      it { should eq "黄瀬やよい" }
+      it { should eq "黄瀬 やよい" }
     end
   end
 

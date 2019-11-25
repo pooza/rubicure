@@ -3,7 +3,7 @@ describe "Cure.peace" do # rubocop:disable RSpec/DescribeClass
     subject { girl.pikarin_janken }
 
     shared_examples :do_janken do
-      it { should match(/ピカピカピカリン\nジャンケンポン！\n（.+）/) }
+      it { should match(/ぴかぴかぴかりん\nジャンケンポン！\n（.+）/) }
     end
 
     context "When peace" do

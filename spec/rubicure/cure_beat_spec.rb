@@ -10,7 +10,7 @@ describe "Cure.beat" do # rubocop:disable RSpec/DescribeClass
     end
 
     context "called once" do
-      it { expect { subject }.to change { girl.name }.from("黒川エレン").to("セイレーン") }
+      it { expect { subject }.to change { girl.name }.from("黒川 エレン").to("セイレーン") }
     end
 
     context "called twice" do
@@ -18,7 +18,7 @@ describe "Cure.beat" do # rubocop:disable RSpec/DescribeClass
         !Cure.beat
       end
 
-      it { expect { subject }.to change { girl.name }.from("セイレーン").to("黒川エレン") }
+      it { expect { subject }.to change { girl.name }.from("セイレーン").to("黒川 エレン") }
     end
 
     context "after transform" do

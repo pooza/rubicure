@@ -175,7 +175,7 @@ Precure.now
 => {:girl_name=>"cure_muse", :human_name=>"調辺アコ", :precure_name=>"キュアミューズ", :cast_name=>"大久保瑠美", :created_date=>Sun, 16 Oct 2011, :color=>"yellow", :transform_message=>"レッツプレイ！プリキュアモジュレーション！！\n爪弾くは女神の調べ！ キュアミューズ！\n届け4人の組曲！スイートプリキュア！", :extra_names=>["クレッシェンドミューズ"], :attack_messages=>["おいで、シリー！\nシの音符の、シャイニングメロディ！\nプリキュア！スパークリングシャワー！！\n三拍子！１、２、３\nフィナーレ！", "届けましょう、希望のシンフォニー！\nプリキュア！スイートセッションアンサンブル！\nクレッシェンド！！\nフィナーレ！"], :transform_calls=>["lets_play_precure_modulation", "lets_play", "modulation"]}
 
 >> Cure.peace
-=> {:girl_name=>"cure_peace", :human_name=>"黄瀬やよい", :precure_name=>"キュアピース", :cast_name=>"金元寿子", :created_date=>Sun, 19 Feb 2012, :color=>"yellow", :transform_message=>"(レディ？)\nプリキュア・スマイルチャージ！\n(ゴー！ゴー！レッツ・ゴー！ピース！！)\nピカピカピカリンジャンケンポン！ キュアピース！\n5つの光が導く未来！\n輝け！スマイルプリキュア！", :extra_names=>["プリンセスピース", "ウルトラピース"], :attack_messages=>["プリキュア！ピースサンダー！！", "開け、ロイヤルクロック！\n(みんなの力を1つにするクル！)\n届け、希望の光！\nはばたけ！光り輝く未来へ！\nプリキュア！ロイヤルレインボーバースト！", "(みんなの力を1つにするクル！)\nプリキュア！ミラクルレインボーバースト！\n輝けー！！\nスマイルプリキュア！！"], :transform_calls=>["smile_charge"]}
+=> {:girl_name=>"cure_peace", :human_name=>"黄瀬やよい", :precure_name=>"キュアピース", :cast_name=>"金元寿子", :created_date=>Sun, 19 Feb 2012, :color=>"yellow", :transform_message=>"(レディ？)\nプリキュア・スマイルチャージ！\n(ゴー！ゴー！レッツ・ゴー！ピース！！)\nぴかぴかぴかりんジャンケンポン！ キュアピース！\n5つの光が導く未来！\n輝け！スマイルプリキュア！", :extra_names=>["プリンセスピース", "ウルトラピース"], :attack_messages=>["プリキュア！ピースサンダー！！", "開け、ロイヤルクロック！\n(みんなの力を1つにするクル！)\n届け、希望の光！\nはばたけ！光り輝く未来へ！\nプリキュア！ロイヤルレインボーバースト！", "(みんなの力を1つにするクル！)\nプリキュア！ミラクルレインボーバースト！\n輝けー！！\nスマイルプリキュア！！"], :transform_calls=>["smile_charge"]}
 
 >> Cure.rosetta
 => {:girl_name=>"cure_rosetta", :human_name=>"四葉ありす", :precure_name=>"キュアロゼッタ", :cast_name=>"渕上舞", :created_date=>Sun, 24 Feb 2013, :color=>"yellow", :birthday=>"5/28", :transform_message=>"プリキュアラブリンク！\nL! O! V! E!\nひだまりポカポカ キュアロゼッタ！\n響け愛の鼓動！ドキドキプリキュア！\n世界を制するのは愛だけです、\nさぁ、あなたも私と愛を育んでくださいな", :extra_names=>nil, :attack_messages=>["カッチカチの！ロゼッタウォール！"], :transform_calls=>["love_link"]}
@@ -216,7 +216,7 @@ and [more aliases!](config/girls/)
 (レディ？)
 プリキュア・スマイルチャージ！
 (ゴー！ゴー！レッツ・ゴー！ピース！！)
-ピカピカピカリンジャンケンポン！ キュアピース！
+ぴかぴかぴかりんジャンケンポン！ キュアピース！
 5つの光が導く未来！
 輝け！スマイルプリキュア！
 
@@ -563,16 +563,16 @@ end
 ### Pikarin janken
 ```ruby
 Cure.peace.pikarin_janken
-ピカピカピカリン
+ぴかぴかぴかりん
 ジャンケンポン！
 （パー）
-#=> "ピカピカピカリン\nジャンケンポン！\n（パー）\n"
+#=> "ぴかぴかぴかりん\nジャンケンポン！\n（パー）\n"
 
 Cure.peace.janken
-ピカピカピカリン
+ぴかぴかぴかりん
 ジャンケンポン！
 （グー）
-#=> "ピカピカピカリン\nジャンケンポン！\n（グー）\n"
+#=> "ぴかぴかぴかりん\nジャンケンポン！\n（グー）\n"
 ```
 
 ### one-liner
@@ -618,7 +618,7 @@ Go!プリンセスプリキュア
 ```ruby
 >> passion = Cure.passion
 >> passion.name
-=> "東せつな"
+=> "東 せつな"
 
 >> !passion
 
@@ -630,7 +630,7 @@ Go!プリンセスプリキュア
 >> beat = Cure.beat
 
 >> beat.name
-=> "黒川エレン"
+=> "黒川 エレン"
 
 >> !beat
 
