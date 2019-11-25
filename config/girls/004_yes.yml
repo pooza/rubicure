@@ -1,10 +1,11 @@
 cure_dream:  &cure_dream
   girl_name:    cure_dream
-  human_name:   夢原のぞみ
+  human_name:   夢原 のぞみ
   precure_name: キュアドリーム
-  cast_name:    三瓶由布子
+  cast_name:    三瓶 由布子
   created_date: 2007-02-04 # episode 1
   color:        pink
+  title:        大いなる希望の力
   transform_message: |-
     プリキュア！メタモルフォーゼ！
     大いなる希望の力、キュアドリーム！
@@ -20,11 +21,12 @@ cure_dream:  &cure_dream
     - metamorphose
 cure_rouge:  &cure_rouge
   girl_name:    cure_rouge
-  human_name:   夏木りん
+  human_name:   夏木 りん
   precure_name: キュアルージュ
-  cast_name:    竹内順子
+  cast_name:    竹内 順子
   created_date: 2007-02-11 # episode 2
   color:        red
+  title:        情熱の赤い炎
   transform_message: |-
     プリキュア！メタモルフォーゼ！
     情熱の赤い炎、キュアルージュ！
@@ -40,11 +42,12 @@ cure_rouge:  &cure_rouge
     - metamorphose
 cure_lemonade:  &cure_lemonade
   girl_name:    cure_lemonade
-  human_name:   春日野うらら
+  human_name:   春日野 うらら
   precure_name: キュアレモネード
-  cast_name:    伊瀬茉莉也
+  cast_name:    伊瀬 茉莉也
   created_date: 2007-02-18 # episode 3
   color:        yellow
+  title:        はじけるレモンの香り
   transform_message: |-
     プリキュア！メタモルフォーゼ！
     はじけるレモンの香り、キュアレモネード！
@@ -65,6 +68,7 @@ cure_mint:  &cure_mint
   cast_name:    永野愛
   created_date: 2007-02-25 # episode 4
   color:        green
+  title:        安らぎの緑の大地
   transform_message: |-
     プリキュア！メタモルフォーゼ！
     安らぎの緑の大地、キュアミント！
@@ -80,11 +84,12 @@ cure_mint:  &cure_mint
     - metamorphose
 cure_aqua:  &cure_aqua
   girl_name:    cure_aqua
-  human_name:   水無月かれん
+  human_name:   水無月 かれん
   precure_name: キュアアクア
-  cast_name:    前田愛
+  cast_name:    前田 愛
   created_date: 2007-03-11 # episode 6
   color:        blue
+  title:        知性の青き泉
   transform_message: |-
     プリキュア！メタモルフォーゼ！
     知性の青き泉、キュアアクア！

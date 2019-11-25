@@ -1,8 +1,8 @@
 cure_whip: &cure_whip
   girl_name:    cure_whip
-  human_name:   宇佐美いちか
+  human_name:   宇佐美 いちか
   precure_name: キュアホイップ
-  cast_name:    美山加恋
+  cast_name:    美山 加恋
   color:        pink
   created_date: 2017-02-05 # episode 1
   birthday: 1/7
@@ -21,12 +21,14 @@ cure_whip: &cure_whip
     - cure_la_mode_decoration
 cure_custard: &cure_custard
   girl_name:    cure_custard
-  human_name:   有栖川ひまり
+  human_name:   有栖川 ひまり
   precure_name: キュアカスタード
-  cast_name:    福原遥
+  cast_name:    福原 遥
   color:        yellow
   created_date: 2017-02-12 # episode 2
-  birthday: 4/16
+  birthday:     4/16
+  nicknames:
+    - ひまりん
   transform_message: |-
     キュアラモード・デコレーション！
     プリン！
@@ -42,12 +44,14 @@ cure_custard: &cure_custard
     - cure_la_mode_decoration
 cure_gelato: &cure_gelato
   girl_name:    cure_gelato
-  human_name:   立神あおい
+  human_name:   立神 あおい
   precure_name: キュアジェラート
-  cast_name:    村中知
+  cast_name:    村中 知
   color:        blue
   created_date: 2017-02-19 # episode 3
-  birthday: 8/27
+  birthday:     8/27
+  nicknames:
+    - あおちゃん
   transform_message: |-
     キュアラモード・デコレーション！
     アイス！
@@ -63,9 +67,9 @@ cure_gelato: &cure_gelato
     - cure_la_mode_decoration
 cure_macaron: &cure_macaron
   girl_name:    cure_macaron
-  human_name:   琴爪ゆかり
+  human_name:   琴爪 ゆかり
   precure_name: キュアマカロン
-  cast_name:    藤田咲
+  cast_name:    藤田 咲
   color:        purple
   created_date: 2017-03-05 # episode 5
   birthday: 6/11
@@ -84,9 +88,9 @@ cure_macaron: &cure_macaron
     - cure_la_mode_decoration
 cure_chocolat: &cure_chocolat
   girl_name:    cure_chocolat
-  human_name:   剣城あきら
+  human_name:   剣城 あきら
   precure_name: キュアショコラ
-  cast_name:    森なな子
+  cast_name:    森 なな子
   color:        red
   created_date: 2017-03-12 # episode 6
   birthday: 9/24
@@ -105,12 +109,12 @@ cure_chocolat: &cure_chocolat
     - cure_la_mode_decoration
 cure_parfait: &cure_parfait
   girl_name:    cure_parfait
-  human_name:   キラ星シエル
+  human_name:   キラ星 シエル
   precure_name: キュアパルフェ
-  cast_name:    水瀬いのり
+  cast_name:    水瀬 いのり
   color:        rainbow
   created_date: 2017-07-16 # episode 23
-  birthday: 7/30
+  birthday:     7/30
   transform_message: |-
     キュアラモード・デコレーション！
     パフェ！

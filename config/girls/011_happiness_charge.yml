@@ -1,8 +1,8 @@
 cure_lovely: &cure_lovely
   girl_name:    cure_lovely
-  human_name:   愛乃めぐみ
+  human_name:   愛乃 めぐみ
   precure_name: キュアラブリー
-  cast_name:    中島愛
+  cast_name:    中島 愛
   created_date: 2014-02-02 # episode 1
   color:        pink
   transform_message: |-
@@ -37,12 +37,14 @@ cure_lovely: &cure_lovely
     - kururin_mirror_change
 cure_princess: &cure_princess
   girl_name:       cure_princess
-  human_name:      白雪ひめ
+  human_name:      白雪 ひめ
   human_full_name: ヒメルダ・ウインドウ・キュアクイーン・オブ・ザ・ブルースカイ
   precure_name:    キュアプリンセス
-  cast_name:       潘めぐみ
+  cast_name:       潘 めぐみ
   created_date:    2014-02-02 # episode 1
   color:           blue
+  nicknames:
+    - お姫ちゃん
   transform_message: |-
     (かわルンルン！)
     プリキュアくるりんミラーチェンジ！
@@ -71,11 +73,13 @@ cure_princess: &cure_princess
     - kururin_mirror_change
 cure_honey: &cure_honey
   girl_name:    cure_honey
-  human_name:   大森ゆうこ
+  human_name:   大森 ゆうこ
   precure_name: キュアハニー
-  cast_name:    北川里奈
+  cast_name:    北川 里奈
   created_date: 2014-03-15 # NS3
   color:        yellow
+  nicknames:
+    - ゆうゆう
   transform_message: |-
     (かわルンルン！)
     プリキュアくるりんミラーチェンジ！
@@ -106,11 +110,13 @@ cure_honey: &cure_honey
     - kururin_mirror_change
 cure_fortune: &cure_fortune
   girl_name:    cure_fortune
-  human_name:   氷川いおな
+  human_name:   氷川 いおな
   precure_name: キュアフォーチュン
-  cast_name:    戸松遥
+  cast_name:    戸松 遥
   created_date: 2014-06-29
   color:        purple
+  nicknames:
+    - ミスフォーチュン
   transform_message: |-
     (かわルンルン！)
     プリキュアきらりんスターシンフォニー！

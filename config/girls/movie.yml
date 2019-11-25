@@ -1,8 +1,8 @@
 cure_echo: &cure_echo
   girl_name:    cure_echo
-  human_name:   坂上あゆみ
+  human_name:   坂上 あゆみ
   precure_name: キュアエコー
-  cast_name:    能登麻美子
+  cast_name:    能登 麻美子
   created_date: 2012-03-17
   color:        white
   transform_message: |-

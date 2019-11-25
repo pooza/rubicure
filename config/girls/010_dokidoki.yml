@@ -1,11 +1,12 @@
 cure_heart: &cure_heart
   girl_name:    cure_heart
-  human_name:   相田マナ
+  human_name:   相田 マナ
   precure_name: キュアハート
-  cast_name:    生天目仁美
+  cast_name:    生天目 仁美
   created_date: 2013-02-03 # episode 1
   color:        pink
   birthday:     8/4
+  title:        みなぎる愛
   transform_message: |-
     プリキュアラブリンク！
     L! O! V! E!
@@ -22,12 +23,13 @@ cure_heart: &cure_heart
     - love_link
 cure_diamond: &cure_diamond
   girl_name:    cure_diamond
-  human_name:   菱川六花
+  human_name:   菱川 六花
   precure_name: キュアダイヤモンド
-  cast_name:    寿美菜子
+  cast_name:    寿 美菜子
   created_date: 2013-02-17 # episode 3
   color:        blue
   birthday:     9/17
+  title:        英知の光
   transform_message: |-
     プリキュアラブリンク！
     L! O! V! E!
@@ -43,9 +45,9 @@ cure_diamond: &cure_diamond
     - love_link
 cure_rosetta: &cure_rosetta
   girl_name:    cure_rosetta
-  human_name:   四葉ありす
+  human_name:   四葉 ありす
   precure_name: キュアロゼッタ
-  cast_name:    渕上舞
+  cast_name:    渕上 舞
   created_date: 2013-02-24 # episode 4
   color:        yellow
   birthday:     5/28
@@ -64,12 +66,15 @@ cure_rosetta: &cure_rosetta
     - love_link
 cure_sword: &cure_sword
   girl_name:    cure_sword
-  human_name:   剣崎真琴
+  human_name:   剣崎 真琴
   precure_name: キュアソード
-  cast_name:    宮本佳那子
+  cast_name:    宮本 佳那子
   created_date: 2013-02-03 # episode 1
   color:        purple
   birthday:     11/4
+  title:        勇気の刃
+  nicknames:
+    - まこぴー
   transform_message: |-
     プリキュアラブリンク！
     L! O! V! E!
@@ -85,11 +90,12 @@ cure_sword: &cure_sword
     - love_link
 cure_ace: &cure_ace
   girl_name:    cure_ace
-  human_name:   円亜久里
+  human_name:   円 亜久里
   precure_name: キュアエース
-  cast_name:    釘宮理恵
+  cast_name:    釘宮 理恵
   created_date: 2013-06-30 # episode 22
   color:        red
+  title:        愛の切り札
   transform_message: |-
     プリキュアドレスアップ！
     (キュピラッパー！)

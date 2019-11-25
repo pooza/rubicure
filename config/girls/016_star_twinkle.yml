@@ -1,8 +1,8 @@
 cure_star: &cure_star
   girl_name:    cure_star
-  human_name:   星奈ひかる
+  human_name:   星奈 ひかる
   precure_name: キュアスター
-  cast_name:    成瀬瑛美
+  cast_name:    成瀬 瑛美
   color:        pink
   created_date: 2019-02-03 # episode 1
   birthday:     4/12
@@ -32,12 +32,15 @@ star:
 
 cure_milky: &cure_milky
   girl_name:    cure_milky
-  human_name:   羽衣ララ
+  human_name:   羽衣 ララ
   precure_name: キュアミルキー
-  cast_name:    小原好美
+  cast_name:    小原 好美
   color:        green
   created_date: 2019-02-10 # episode 2
   birthday:     7/7
+  nicknames:
+    - ルンちゃん
+    - ララルン
   transform_message: |-
     スターカラーペンダント！
     カラーチャージ！
@@ -64,12 +67,13 @@ milky:
 
 cure_soleil: &cure_soleil
   girl_name:    cure_soleil
-  human_name:   天宮えれな
+  human_name:   天宮 えれな
   precure_name: キュアソレイユ
-  cast_name:    安野希世乃
+  cast_name:    安野 希世乃
   color:        yellow
   created_date: 2019-02-24 # episode 4
   birthday:     9/8
+  nicknames:    観星中の太陽
   transform_message: |-
     スターカラーペンダント！
     カラーチャージ！
@@ -96,12 +100,14 @@ soleil:
 
 cure_selene: &cure_selene
   girl_name:    cure_selene
-  human_name:   香久矢まどか
+  human_name:   香久矢 まどか
   precure_name: キュアセレーネ
-  cast_name:    小松未可子
+  cast_name:    小松 未可子
   color:        purple
   created_date: 2019-03-03 # episode 5
-  birthday: 11/23
+  birthday:     11/23
+  nicknames:
+    - 観星中の月
   transform_message: |-
     スターカラーペンダント！
     カラーチャージ！
@@ -130,7 +136,7 @@ cure_cosmo: &cure_cosmo
   girl_name:    cure_cosmo
   human_name:   ユニ
   precure_name: キュアコスモ
-  cast_name:    上坂すみれ
+  cast_name:    上坂 すみれ
   color:        rainbow
   created_date: 2019-06-23 # episode 20
   birthday: 10/11

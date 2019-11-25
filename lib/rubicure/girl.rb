@@ -15,6 +15,8 @@ module Rubicure
       :human_full_name,
       :precure_name,
       :cast_name,
+      :title,
+      :nicknames,
       :color,
       :created_date,
       :birthday,

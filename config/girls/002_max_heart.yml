@@ -1,11 +1,12 @@
 shiny_luminous: &shiny_luminous
   girl_name:    shiny_luminous
-  human_name:   九条ひかり
+  human_name:   九条 ひかり
   precure_name: シャイニールミナス
-  cast_name:    田中理恵
+  cast_name:    田中 理恵
   created_date: 2005-03-06 # episode 5
   color:        yellow
   birthday:     9/9
+  title:        輝く命
   transform_message: |-
     ルミナス・シャイニングストリーム！
     輝く命、シャイニールミナス！

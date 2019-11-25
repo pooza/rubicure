@@ -1,8 +1,8 @@
 cure_miracle: &cure_miracle
   girl_name:    cure_miracle
-  human_name:   朝日奈みらい
+  human_name:   朝日奈 みらい
   precure_name: キュアミラクル
-  cast_name:    高橋李依
+  cast_name:    高橋 李依
   color:        pink
   created_date: 2016-02-07 # episode 1
   birthday: 6/12
@@ -77,9 +77,9 @@ cure_miracle: &cure_miracle
 
 cure_magical: &cure_magical
   girl_name:    cure_magical
-  human_name:   十六夜リコ
+  human_name:   十六夜 リコ
   precure_name: キュアマジカル
-  cast_name:    堀江由衣
+  cast_name:    堀江 由衣
   color:        purple
   created_date: 2016-02-07 # episode 1
   birthday: 11/12
@@ -153,13 +153,15 @@ cure_magical: &cure_magical
           プリキュア・トパーズ・エスペランサ！
 cure_felice: &cure_felice
   girl_name:    cure_felice
-  human_name:   花海ことは
+  human_name:   花海 ことは
   precure_name: キュアフェリーチェ
-  cast_name:    早見沙織
+  cast_name:    早見 沙織
   color:        green
   created_date: 2016-07-03 # episode 22
   #birthday:     4/10
   extra_names:
+  nicknames:
+    - はーちゃん
   transform_calls:
     - cure_up_rapapa
   transform_styles:

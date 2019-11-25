@@ -1,11 +1,12 @@
 cure_yell: &cure_yell
   girl_name:    cure_yell
-  human_name:   野乃はな
+  human_name:   野乃 はな
   precure_name: キュアエール
-  cast_name:    引坂理絵
+  cast_name:    引坂 理絵
   color:        pink
   created_date: 2018-02-04 # episode 1
-  birthday: 1/20
+  birthday:     1/20
+  title:        元気のプリキュア
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -25,12 +26,13 @@ yell:
 
 cure_ange: &cure_ange
   girl_name:    cure_ange
-  human_name:   薬師寺さあや
+  human_name:   薬師寺 さあや
   precure_name: キュアアンジュ
-  cast_name:    本泉莉奈
+  cast_name:    本泉 莉奈
   color:        blue
   created_date: 2018-02-11 # episode 2
-  birthday: 6/10
+  birthday:     6/10
+  title:        知恵のプリキュア
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -50,12 +52,13 @@ ange:
 
 cure_etoile: &cure_etoile
   girl_name:    cure_etoile
-  human_name:   輝木ほまれ
+  human_name:   輝木 ほまれ
   precure_name: キュアエトワール
-  cast_name:    小倉唯
+  cast_name:    小倉 唯
   color:        yellow
   created_date: 2018-03-04 # episode 5
-  birthday: 4/8
+  birthday:     4/8
+  title:        力のプリキュア
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -75,12 +78,13 @@ etoile:
 
 cure_macherie: &cure_macherie
   girl_name:    cure_macherie
-  human_name:   愛崎えみる
+  human_name:   愛崎 えみる
   precure_name: キュアマシェリ
-  cast_name:    田村奈央
+  cast_name:    田村 奈央
   color:        red
   created_date: 2018-06-17 # episode 20
-  birthday: 7/15
+  birthday:     7/15
+  title:        愛のプリキュア
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -103,10 +107,11 @@ cure_amour: &cure_amour
   girl_name:    cure_amour
   human_name:   ルールー・アムール
   precure_name: キュアアムール
-  cast_name:    田村ゆかり
+  cast_name:    田村 ゆかり
   color:        purple
   created_date: 2018-06-17 # episode 20
-  birthday: 9/23
+  birthday:     9/23
+  title:        愛のプリキュア
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！

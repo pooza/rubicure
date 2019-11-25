@@ -1,10 +1,13 @@
 cure_peach: &cure_peach
   girl_name:    cure_peach
-  human_name:   桃園ラブ
+  human_name:   桃園 ラブ
   precure_name: キュアピーチ
-  cast_name:    沖佳苗
+  cast_name:    沖 佳苗
   created_date: 2009-02-01 # episode 1
   color:        pink
+  title:        もぎたてフレッシュ
+  nicknames:
+    - ピーチはん
   transform_message: |-
     チェインジ！プリキュア・ビートアップ！
     ピンクのハートは愛あるしるし！
@@ -22,11 +25,15 @@ cure_peach: &cure_peach
     - beat_up
 cure_berry: &cure_berry
   girl_name:    cure_berry
-  human_name:   蒼乃美希
+  human_name:   蒼乃 美希
   precure_name: キュアベリー
-  cast_name:    喜多村英梨
+  cast_name:    喜多村 英梨
   created_date: 2009-02-08 # episode 2
   color:        blue
+  title:        つみたてフレッシュ
+  nicknames:
+    - みきたん
+    - ベリーはん
   transform_message: |-
     チェインジ！プリキュア・ビートアップ！
     ブルーのハートは希望のしるし！
@@ -44,11 +51,15 @@ cure_berry: &cure_berry
     - beat_up
 cure_pine: &cure_pine
   girl_name:    cure_pine
-  human_name:   山吹祈里
+  human_name:   山吹 祈里
   precure_name: キュアパイン
-  cast_name:    中川亜紀子
+  cast_name:    中川 亜紀子
   created_date: 2009-02-15 # episode 3
   color:        yellow
+  title:        とれたてフレッシュ
+  nicknames:
+    - ブッキー
+    - パインはん
   transform_message: |-
     チェインジ！プリキュア・ビートアップ！
     イエローハートは祈りのしるし！
@@ -66,11 +77,15 @@ cure_pine: &cure_pine
     - beat_up
 cure_passion: &cure_passion
   girl_name:    cure_passion
-  human_name:   東せつな
+  human_name:   東 せつな
   precure_name: キュアパッション
-  cast_name:    小松由佳
+  cast_name:    小松 由佳
   created_date: 2009-07-12 # episode 23
   color:        red
+  title:        熟れたてフレッシュ
+  nicknames:
+    - パッションはん
+    - せっちゃん
   transform_message: |-
     チェインジ！プリキュア・ビートアップ！
     真っ赤なハートは幸せの証！
