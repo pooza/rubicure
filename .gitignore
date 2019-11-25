@@ -16,3 +16,8 @@ test/tmp
 test/version_tmp
 tmp
 vendor/bundle/
+log/
+.DS_Store
+Thumbs.db
+._*
+.fuse*
