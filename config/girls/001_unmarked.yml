@@ -7,8 +7,6 @@ cure_black: &cure_black
   color:        black
   birthday:     10/10
   title:        光の使者
-  nicknames:
-    - うんちく女王
   transform_message: |-
     デュアル・オーロラ・ウェイブ！！
     光の使者、キュアブラック！
@@ -35,6 +33,8 @@ cure_white: &cure_white
   color:        white
   birthday:     4/4
   title:        光の使者
+  nicknames:
+    - うんちく女王
   transform_message: |-
     デュアル・オーロラ・ウェイブ！！
     光の使者、キュアホワイト！
