@@ -29,11 +29,11 @@ cure_marine: &cure_marine
   cast_name:    水沢 史絵
   created_date: 2010-02-21 # episode 3
   color:        blue
-  title:        海風にゆれる一輪の花
+  title:        海風に揺れる一輪の花
   transform_message: |-
     (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
-    海風にゆれる一輪の花！ キュアマリン！
+    海風に揺れる一輪の花！ キュアマリン！
     ハートキャッチ、プリキュア！
   extra_names:
   - スーパーキュアマリン
@@ -53,11 +53,11 @@ cure_sunshine: &cure_sunshine
   cast_name:    桑島 法子
   created_date: 2010-07-18 # episode 23
   color:        yellow
-  title:        陽の光あびる一輪の花
+  title:        陽の光浴びる一輪の花
   transform_message: |-
     (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
-    陽の光あびる一輪の花！ キュアサンシャイン！
+    陽の光浴びる一輪の花！ キュアサンシャイン！
     ハートキャッチ、プリキュア！
   extra_names:
   - スーパーキュアサンシャイン
