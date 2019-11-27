@@ -28,7 +28,7 @@ describe Rubicure::Girl do
     <<JANKEN
 プリキュアスマイルチャージ！
 GO! GO! Let's GO ピース！
-ぴかぴかぴかりんジャンケンポン！ キュアピース！
+ピカピカぴかりんジャンケンポン！ キュアピース！
 JANKEN
   end
   let(:attack_messages) do
