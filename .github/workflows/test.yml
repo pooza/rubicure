@@ -23,7 +23,6 @@ jobs:
           - ruby:2.5
           - ruby:2.6
           - ruby:2.7
-          - rubylang/ruby:master-nightly-bionic
         include:
           - ruby: rubylang/ruby:master-nightly-bionic
             allow_failures: "true"
