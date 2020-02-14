@@ -23,9 +23,6 @@ jobs:
           - ruby:2.5
           - ruby:2.6
           - ruby:2.7
-        include:
-          - ruby: rubylang/ruby:master-nightly-bionic
-            allow_failures: "true"
 
     steps:
       - uses: actions/checkout@v2
@@ -47,28 +44,12 @@ jobs:
           bundle update --jobs $(nproc) --retry 3
         continue-on-error: ${{ matrix.allow_failures == 'true' }}
 
-      - name: Setup Code Climate Test Reporter
-        uses: aktions/codeclimate-test-reporter@v1
-        with:
-          codeclimate-test-reporter-id: ${{ secrets.CC_TEST_REPORTER_ID }}
-          command: before-build
-        if: matrix.ruby >= 'ruby:2.4'
-        continue-on-error: true
-
       - name: Run test
         run: |
           set -xe
           bundle exec rspec
           bundle exec ruby examples/all.rb
         continue-on-error: ${{ matrix.allow_failures == 'true' }}
-
-      - name: Teardown Code Climate Test Reporter
-        uses: aktions/codeclimate-test-reporter@v1
-        with:
-          codeclimate-test-reporter-id: ${{ secrets.CC_TEST_REPORTER_ID }}
-          command: after-build
-        if: matrix.ruby >= 'ruby:2.4' && always()
-        continue-on-error: true
 
       - name: Run lint
         run: |
