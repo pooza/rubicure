@@ -4,7 +4,11 @@ inherit_gem:
     - "config/rspec.yml"
 
 AllCops:
-  TargetRubyVersion: 2.2
+  AllowSymlinksInCacheRootDirectory: true
+  DisplayCopNames: true
+  Exclude:
+    - '**/._*'
+  TargetRubyVersion: 2.5
 
 RSpec/NestedGroups:
   Enabled: false
@@ -12,6 +16,5 @@ RSpec/NestedGroups:
 RSpec/SharedExamples:
   Enabled: false
 
-# TODO: Remove when drop support ruby 2.2
 Layout/IndentHeredoc:
   Enabled: false
