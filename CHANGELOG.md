@@ -1,5 +1,19 @@
 ## master
-[full changelog](http://github.com/sue445/rubicure/compare/v1.2.6...master)
+[full changelog](http://github.com/sue445/rubicure/compare/v1.3.1...master)
+
+## v1.3.1
+[full changelog](http://github.com/sue445/rubicure/compare/v1.3.0...v1.3.1)
+
+* Add birthday of healingood:heart:precure
+  * https://github.com/sue445/rubicure/pull/232
+
+## v1.3.0
+[full changelog](http://github.com/sue445/rubicure/compare/v1.2.6...v1.3.0)
+
+* Add Healingood:heart:Precure
+  * https://github.com/sue445/rubicure/pull/229
+* Remove enemy's message
+  * https://github.com/sue445/rubicure/pull/230
 
 ## v1.2.6
 [full changelog](http://github.com/sue445/rubicure/compare/v1.2.5...v1.2.6)
