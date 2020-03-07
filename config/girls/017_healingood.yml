@@ -1,11 +1,14 @@
 cure_grace: &cure_grace
   girl_name:    cure_grace
-  human_name:   花寺のどか
+  human_name:   花寺 のどか
   precure_name: キュアグレース
-  cast_name:    悠木碧
+  cast_name:    悠木 碧
   color:        pink
   created_date: 2020-02-02 # episode 1
   birthday:     3/9
+  title:        花のプリキュア
+  nicknames:
+    - のどかっち
   transform_message: |-
     スタンバイ！
     プリキュアオペレーション！
@@ -30,12 +33,15 @@ grace:
 
 cure_fontaine: &cure_fontaine
   girl_name:    cure_fontaine
-  human_name:   沢泉ちゆ
+  human_name:   沢泉 ちゆ
   precure_name: キュアフォンテーヌ
-  cast_name:    依田菜津
+  cast_name:    依田 菜津
   color:        blue
   created_date: 2020-02-16 # episode 3
   birthday:     8/21
+  title:        水のプリキュア
+  nicknames:
+    - ちゆちー
   transform_message: |-
     スタート！
     プリキュアオペレーション！
@@ -60,12 +66,13 @@ fontaine:
 
 cure_sparkle: &cure_sparkle
   girl_name:    cure_sparkle
-  human_name:   平光ひなた
+  human_name:   平光 ひなた
   precure_name: キュアスパークル
-  cast_name:    河野ひより
+  cast_name:    河野 ひより
   color:        yellow
   created_date: 2020-02-23 # episode 4
   birthday:     10/4
+  title:        光のプリキュア
   transform_message: |-
     スタート！
     プリキュアオペレーション！
