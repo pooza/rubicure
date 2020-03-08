@@ -13,6 +13,8 @@ describe Rubicure::Movie do
       :super_stars,
       :memories,
       :miracle_universe,
+      :star_song,
+      :miracle_leap,
     ]
   end
 
@@ -35,7 +37,7 @@ describe Rubicure::Movie do
     context "when exists" do
       let(:movie_name) { :dx }
 
-      its(:title) { should == "映画 プリキュアオールスターズDX みんなともだちっ☆奇跡の全員大集合!" }
+      its(:title) { should == "映画 プリキュアオールスターズDX みんなともだちっ☆奇跡の全員大集合！" }
     end
 
     context "when not exists" do
