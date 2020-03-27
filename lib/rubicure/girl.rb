@@ -17,6 +17,7 @@ module Rubicure
       :cast_name,
       :title,
       :nicknames,
+      :quote_suffixes,
       :color,
       :created_date,
       :birthday,
