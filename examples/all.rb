@@ -19,6 +19,9 @@ MESSAGE
   extra_names:     #{girl[:extra_names]}
   state_names:     #{girl.state_names}
   attack_messages: #{girl.attack_messages}
+  title:           #{girl.title}
+  nicknames:       #{girl.nicknames}
+  quote_suffixes:  #{girl.quote_suffixes}
   transform_message:
 #{girl.transform_message}
 MESSAGE
