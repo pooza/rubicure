@@ -1,15 +1,18 @@
 [Cure.peace, Cure.cure_peace].each do |peace|
   class << peace
+    # rubocop:disable Performance/CollectionLiteralInLoop
     HANDS =
       (["グー"] * 13) +
       (["チョキ"] * 14) +
       (["パー"] * 15) +
       ["グッチョッパー"]
-    MESSAGE = <<JANKEN.freeze
-ピカピカぴかりん
-ジャンケンポン！
-（%s）
-JANKEN
+    # rubocop:enable Performance/CollectionLiteralInLoop
+
+    MESSAGE = <<~JANKEN.freeze
+      ピカピカぴかりん
+      ジャンケンポン！
+      （%s）
+    JANKEN
     def pikarin_janken
       print_by_line(MESSAGE % HANDS.sample)
     end

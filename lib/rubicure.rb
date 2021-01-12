@@ -1,6 +1,10 @@
-require "active_support/all"
+require "active_support/core_ext/array/wrap"
+require "active_support/core_ext/hash/keys"
+require "active_support/core_ext/time/calculations"
 require "yaml"
 require "hashie"
+require "date"
+require "json"
 require "rubicure/version"
 require "rubicure/concerns/util"
 require "rubicure/concerns/gengou"
@@ -16,14 +20,13 @@ require "rubicure/cure_passion"
 require "rubicure/cure_beat"
 require "rubicure/cure_scarlet"
 
-begin
-  require "backport_dig"
-rescue LoadError # rubocop:disable Lint/HandleExceptions
-end
-
 module Precure
-  def self.method_missing(name, *args, &block) # rubocop:disable Style/MethodMissing
+  def self.method_missing(name, *args, &block)
     Rubicure::Core.instance.send(name, *args, &block)
+  end
+
+  def self.respond_to_missing?(name, include_private)
+    Rubicure::Core.instance.respond_to_missing?(name, include_private)
   end
 end
 

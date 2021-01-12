@@ -25,11 +25,11 @@ describe Rubicure::Girl do
   let(:extra_names)    { %w[プリンセスピース ウルトラピース] }
   let(:color)          { "yellow" }
   let(:transform_message) do
-    <<JANKEN
-プリキュアスマイルチャージ！
-GO! GO! Let's GO ピース！
-ピカピカぴかりんジャンケンポン！ キュアピース！
-JANKEN
+    <<~JANKEN
+      プリキュアスマイルチャージ！
+      GO! GO! Let's GO ピース！
+      ピカピカぴかりんジャンケンポン！ キュアピース！
+    JANKEN
   end
   let(:attack_messages) do
     [
@@ -100,13 +100,13 @@ JANKEN
           transform_calls:   ["cure_up_rapapa"],
           color:             "pink",
           birthday:          "6/12",
-          transform_styles: {
+          transform_styles:  {
             diamond: {
-              precure_name: "キュアミラクル（ダイヤスタイル）",
+              precure_name:      "キュアミラクル（ダイヤスタイル）",
               transform_message: "",
             },
-            ruby: {
-              precure_name: "キュアミラクル（ルビースタイル）",
+            ruby:    {
+              precure_name:      "キュアミラクル（ルビースタイル）",
               transform_message: "",
             },
           },
@@ -258,7 +258,7 @@ JANKEN
         girl.transform!
       end
 
-      subject! { humanize! }
+      subject! { humanize! } # rubocop:disable RSpec/LeadingSubject
 
       it_behaves_like :a_humanize_method
     end
