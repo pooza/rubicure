@@ -80,3 +80,7 @@ star_song: &star_song
 miracle_leap: &miracle_leap
   title: 映画 プリキュアミラクルリープ みんなとの不思議な1日
   started_date: 2020-10-31
+#######################################################
+miracle_leap: &dream_city
+  title: 映画 ヒーリングっど♥プリキュア ゆめのまちでキュン！っとGoGo!大変身！！
+  started_date: 2021-03-20
