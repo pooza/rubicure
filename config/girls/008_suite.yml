@@ -5,6 +5,7 @@ cure_melody: &cure_melody
   cast_name:    小清水 亜美
   created_date: 2011-02-06 # episode 1
   color:        pink
+  cast_birthday: 2/15
   transform_message: |-
     レッツプレイ！プリキュアモジュレーション！！
     爪弾くは荒ぶる調べ！ キュアメロディ！
@@ -34,6 +35,7 @@ cure_rhythm: &cure_rhythm
   cast_name:    折笠 富美子
   created_date: 2011-02-06 # episode 1
   color:        white
+  cast_birthday: 12/27
   transform_message: |-
     レッツプレイ！プリキュアモジュレーション！！
     爪弾くはたおやかな調べ！ キュアリズム！
@@ -63,6 +65,7 @@ cure_beat: &cure_beat
   cast_name:    豊口 めぐみ
   created_date: 2011-07-10 # episode 21
   color:        blue
+  cast_birthday: 1/2
   transform_message: |-
     レッツプレイ！プリキュアモジュレーション！！
     爪弾くは魂の調べ！ キュアビート！
@@ -91,6 +94,7 @@ cure_muse: &cure_muse
   cast_name:    大久保 瑠美
   created_date: 2011-10-16 # episode 35
   color:        yellow
+  cast_birthday: 9/27
   transform_message: |-
     レッツプレイ！プリキュアモジュレーション！！
     爪弾くは女神の調べ！ キュアミューズ！

@@ -6,6 +6,7 @@ cure_miracle: &cure_miracle
   color:        pink
   created_date: 2016-02-07 # episode 1
   birthday: 6/12
+  cast_birthday: 2/27
   extra_names:
   transform_calls:
     - cure_up_rapapa
@@ -83,6 +84,7 @@ cure_magical: &cure_magical
   color:        purple
   created_date: 2016-02-07 # episode 1
   birthday: 11/12
+  cast_birthday: 9/20
   extra_names:
   transform_calls:
     - cure_up_rapapa
@@ -159,6 +161,7 @@ cure_felice: &cure_felice
   color:        green
   created_date: 2016-07-03 # episode 22
   #birthday:     4/10
+  cast_birthday: 5/29
   extra_names:
   nicknames:
     - はーちゃん

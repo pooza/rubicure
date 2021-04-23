@@ -6,6 +6,7 @@ cure_heart: &cure_heart
   created_date: 2013-02-03 # episode 1
   color:        pink
   birthday:     8/4
+  cast_birthday: 8/4
   title:        みなぎる愛
   transform_message: |-
     プリキュアラブリンク！
@@ -29,6 +30,7 @@ cure_diamond: &cure_diamond
   created_date: 2013-02-17 # episode 3
   color:        blue
   birthday:     9/17
+  cast_birthday: 9/17
   title:        英知の光
   transform_message: |-
     プリキュアラブリンク！
@@ -51,6 +53,7 @@ cure_rosetta: &cure_rosetta
   created_date: 2013-02-24 # episode 4
   color:        yellow
   birthday:     5/28
+  cast_birthday: 5/28
   transform_message: |-
     プリキュアラブリンク！
     L! O! V! E!
@@ -72,6 +75,7 @@ cure_sword: &cure_sword
   created_date: 2013-02-03 # episode 1
   color:        purple
   birthday:     11/4
+  cast_birthday: 11/4
   title:        勇気の刃
   nicknames:
     - まこぴー
@@ -96,6 +100,7 @@ cure_ace: &cure_ace
   created_date: 2013-06-30 # episode 22
   color:        red
   title:        愛の切り札
+  cast_birthday: 5/30
   transform_message: |-
     プリキュアドレスアップ！
     (キュピラッパー！)

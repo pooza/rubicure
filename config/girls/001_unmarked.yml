@@ -6,6 +6,7 @@ cure_black: &cure_black
   created_date: 2004-02-01 # episode 1
   color:        black
   birthday:     10/10
+  cast_birthday: 1/7
   title:        光の使者
   transform_message: |-
     デュアル・オーロラ・ウェイブ！！
@@ -32,6 +33,7 @@ cure_white: &cure_white
   created_date: 2004-02-01 # episode 1
   color:        white
   birthday:     4/4
+  cast_birthday: 1/6
   title:        光の使者
   nicknames:
     - うんちく女王

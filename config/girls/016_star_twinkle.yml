@@ -6,6 +6,7 @@ cure_star: &cure_star
   color:        pink
   created_date: 2019-02-03 # episode 1
   birthday:     4/12
+  cast_birthday: 2/16
   transform_message: |-
     スターカラーペンダント！
     カラーチャージ！
@@ -38,6 +39,7 @@ cure_milky: &cure_milky
   color:        green
   created_date: 2019-02-10 # episode 2
   birthday:     7/7
+  cast_birthday: 6/28
   nicknames:
     - ルンちゃん
     - ララルン
@@ -75,7 +77,9 @@ cure_soleil: &cure_soleil
   color:        yellow
   created_date: 2019-02-24 # episode 4
   birthday:     9/8
-  nicknames:    観星中の太陽
+  nicknames:
+    - 観星中の太陽
+  cast_birthday: 7/9
   transform_message: |-
     スターカラーペンダント！
     カラーチャージ！
@@ -108,6 +112,7 @@ cure_selene: &cure_selene
   color:        purple
   created_date: 2019-03-03 # episode 5
   birthday:     11/23
+  cast_birthday: 11/11
   nicknames:
     - 観星中の月
   transform_message: |-
@@ -142,6 +147,7 @@ cure_cosmo: &cure_cosmo
   color:        rainbow
   created_date: 2019-06-23 # episode 20
   birthday: 10/11
+  cast_birthday: 12/19
   quote_suffixes:
     - ニャン
     - にゃん

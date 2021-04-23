@@ -5,6 +5,7 @@ cure_echo: &cure_echo
   cast_name:    能登 麻美子
   created_date: 2012-03-17
   color:        white
+  cast_birthday: 2/6
   transform_message: |-
     みんなの思いを守るために
     心をひとつに！

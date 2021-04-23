@@ -6,6 +6,7 @@ cure_bloom: &cure_bloom
   created_date: 2006-02-05 # episode 1
   color:        pink
   birthday:     8/7
+  cast_birthday: 1/26
   title:        輝く金の花
   transform_message: |-
     デュアル・スピリチュアル・パワー！
@@ -31,6 +32,7 @@ cure_egret: &cure_egret
   created_date: 2006-02-05 # episode 1
   color:        white
   birthday:     11/20
+  cast_birthday: 11/1
   title:        きらめく銀の翼
   transform_message: |-
     デュアル・スピリチュアル・パワー！

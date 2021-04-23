@@ -6,6 +6,7 @@ cure_whip: &cure_whip
   color:        pink
   created_date: 2017-02-05 # episode 1
   birthday: 1/7
+  cast_birthday: 12/12
   transform_message: |-
     キュアラモード・デコレーション！
     ショートケーキ！
@@ -27,6 +28,7 @@ cure_custard: &cure_custard
   color:        yellow
   created_date: 2017-02-12 # episode 2
   birthday:     4/16
+  cast_birthday: 8/28
   nicknames:
     - ひまりん
   transform_message: |-
@@ -50,6 +52,7 @@ cure_gelato: &cure_gelato
   color:        blue
   created_date: 2017-02-19 # episode 3
   birthday:     8/27
+  cast_birthday: 12/15
   nicknames:
     - あおちゃん
   transform_message: |-
@@ -73,6 +76,7 @@ cure_macaron: &cure_macaron
   color:        purple
   created_date: 2017-03-05 # episode 5
   birthday: 6/11
+  cast_birthday: 10/19
   transform_message: |-
     キュアラモード・デコレーション！
     マカロン！
@@ -94,6 +98,7 @@ cure_chocolat: &cure_chocolat
   color:        red
   created_date: 2017-03-12 # episode 6
   birthday: 9/24
+  cast_birthday: 2/13
   transform_message: |-
     キュアラモード・デコレーション！
     チョコレート！
@@ -115,6 +120,7 @@ cure_parfait: &cure_parfait
   color:        rainbow
   created_date: 2017-07-16 # episode 23
   birthday:     7/30
+  cast_birthday: 12/2
   transform_message: |-
     キュアラモード・デコレーション！
     パフェ！

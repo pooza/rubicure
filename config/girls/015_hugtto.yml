@@ -7,6 +7,7 @@ cure_yell: &cure_yell
   created_date: 2018-02-04 # episode 1
   birthday:     1/20
   title:        元気のプリキュア
+  cast_birthday: 2/4
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -33,6 +34,7 @@ cure_ange: &cure_ange
   created_date: 2018-02-11 # episode 2
   birthday:     6/10
   title:        知恵のプリキュア
+  cast_birthday: 2/4
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -59,6 +61,7 @@ cure_etoile: &cure_etoile
   created_date: 2018-03-04 # episode 5
   birthday:     4/8
   title:        力のプリキュア
+  cast_birthday: 8/15
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -85,6 +88,7 @@ cure_macherie: &cure_macherie
   created_date: 2018-06-17 # episode 20
   birthday:     7/15
   title:        愛のプリキュア
+  cast_birthday: 10/10
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！
@@ -112,6 +116,7 @@ cure_amour: &cure_amour
   created_date: 2018-06-17 # episode 20
   birthday:     9/23
   title:        愛のプリキュア
+  cast_birthday: 2/27
   transform_message: |-
     ミライクリスタル！
     ハートキラっと！

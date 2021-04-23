@@ -7,6 +7,7 @@ cure_flora: &cure_flora
   created_date: 2015-02-01 # episode 1
   birthday:     4/10
   title:        花のプリンセス
+  cast_birthday: 4/18
   nicknames:
     - はるはる
   transform_message: |-
@@ -34,6 +35,7 @@ cure_mermaid: &cure_mermaid
   created_date: 2015-02-08 # episode 2
   birthday:     7/20
   title:        海のプリンセス
+  cast_birthday: 8/25
   nicknames:
     - みなみん
   transform_message: |-
@@ -61,6 +63,7 @@ cure_twinkle: &cure_twinkle
   created_date: 2015-02-22 # episode 4
   birthday:     9/12
   title:        星のプリンセス
+  cast_birthday: 2/10
   transform_message: |-
     プリキュア！プリンセスエンゲージ！
     きらめく星のプリンセス！キュアトゥインクル！
@@ -87,6 +90,7 @@ cure_scarlet: &cure_scarlet
   created_date:    2015-07-05 # episode 22
   birthday:        12/15
   title:           炎のプリンセス
+  cast_birthday: 6/2
   nicknames:
     - トワっち
   transform_message: |-

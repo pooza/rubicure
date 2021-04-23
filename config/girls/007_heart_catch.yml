@@ -6,6 +6,7 @@ cure_blossom: &cure_blossom
   created_date: 2010-02-07 # episode 1
   color:        pink
   title:        大地に咲く一輪の花
+  cast_birthday: 1/21
   transform_message: |-
     (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
@@ -30,6 +31,7 @@ cure_marine: &cure_marine
   created_date: 2010-02-21 # episode 3
   color:        blue
   title:        海風に揺れる一輪の花
+  cast_birthday: 1/9
   transform_message: |-
     (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
@@ -54,6 +56,7 @@ cure_sunshine: &cure_sunshine
   created_date: 2010-07-18 # episode 23
   color:        yellow
   title:        陽の光浴びる一輪の花
+  cast_birthday: 12/12
   transform_message: |-
     (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
@@ -78,8 +81,8 @@ cure_moonlight: &cure_moonlight
   created_date: 2010-09-26 # episode 33
   color:        purple
   title:        月光に冴える一輪の花
+  cast_birthday: 11/12
   transform_message: |-
-    (プリキュアの種、いくですぅ！)
     プリキュア！オープンマイハート！
     月光に冴える一輪の花 キュアムーンライト！
     ハートキャッチ、プリキュア！

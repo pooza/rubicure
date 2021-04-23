@@ -5,6 +5,7 @@ cure_lovely: &cure_lovely
   cast_name:    中島 愛
   created_date: 2014-02-02 # episode 1
   color:        pink
+  cast_birthday: 6/5
   transform_message: |-
     (かわルンルン！)
     プリキュアくるりんミラーチェンジ！
@@ -43,6 +44,7 @@ cure_princess: &cure_princess
   cast_name:       潘 めぐみ
   created_date:    2014-02-02 # episode 1
   color:           blue
+  cast_birthday: 6/3
   nicknames:
     - お姫ちゃん
   transform_message: |-
@@ -78,6 +80,7 @@ cure_honey: &cure_honey
   cast_name:    北川 里奈
   created_date: 2014-03-15 # NS3
   color:        yellow
+  cast_birthday: 7/6
   nicknames:
     - ゆうゆう
   transform_message: |-
@@ -115,6 +118,7 @@ cure_fortune: &cure_fortune
   cast_name:    戸松 遥
   created_date: 2014-06-29
   color:        purple
+  cast_birthday: 2/4
   nicknames:
     - ミスフォーチュン
   transform_message: |-

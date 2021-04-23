@@ -6,6 +6,7 @@ cure_grace: &cure_grace
   color:        pink
   created_date: 2020-02-02 # episode 1
   birthday:     3/9
+  cast_birthday: 3/27
   title:        花のプリキュア
   nicknames:
     - のどかっち
@@ -40,6 +41,7 @@ cure_fontaine: &cure_fontaine
   color:        blue
   created_date: 2020-02-16 # episode 3
   birthday:     8/21
+  cast_birthday: 2/13
   title:        水のプリキュア
   nicknames:
     - ちゆちー
@@ -75,6 +77,7 @@ cure_sparkle: &cure_sparkle
   created_date: 2020-02-23 # episode 4
   birthday:     10/4
   title:        光のプリキュア
+  cast_birthday: 6/21
   transform_message: |-
     スタート！
     プリキュアオペレーション！
@@ -106,6 +109,7 @@ cure_earth: &cure_earth
   color:        purple
   created_date: 2020-08-09 # episode 19
   birthday: 8/16
+  cast_birthday: 6/28
   title:        風のプリキュア
   nicknames:
     - あすみん
