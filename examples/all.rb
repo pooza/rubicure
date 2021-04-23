@@ -19,6 +19,8 @@ Precure.each_with_series do |series|
         extra_names:     #{girl[:extra_names]}
         state_names:     #{girl.state_names}
         title:           #{girl.title}
+        birthday:        #{girl.birthday}
+        cast_birthday:   #{girl.cast_birthday}
         nicknames:       #{girl.nicknames}
         quote_suffixes:  #{girl.quote_suffixes}
         attack_messages: #{girl.attack_messages}

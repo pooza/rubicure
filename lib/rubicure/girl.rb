@@ -21,6 +21,7 @@ module Rubicure
       :color,
       :created_date,
       :birthday,
+      :cast_birthday,
       :transform_message,
       :extra_names,
       :attack_messages,
@@ -144,6 +145,17 @@ module Rubicure
       birthday_date == date
     end
 
+    def cast_birthday?(date = Date.today)
+      return false unless have_cast_birthday?
+
+      # NOTE: cast_birthday is "mm/dd"
+      month, day = cast_birthday.split("/")
+
+      cast_birthday_date = Date.new(date.year, month.to_i, day.to_i)
+
+      cast_birthday_date == date
+    end
+
     # Whether she has birthday
     #
     # @return [Boolean]
@@ -158,6 +170,11 @@ module Rubicure
       has_key?(:birthday)
     end
     alias_method :has_birthday?, :have_birthday?
+
+    def have_cast_birthday? # rubocop:disable Naming/PredicateName
+      has_key?(:cast_birthday)
+    end
+    alias_method :has_cast_birthday?, :have_cast_birthday?
 
     # returns `human_full_name` or `human_name`
     #
