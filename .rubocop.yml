@@ -14,7 +14,7 @@ AllCops:
   Exclude:
     - '**/._*'
     - 'vendor/**/*'
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.6
   NewCops: enable
 
 Layout/HashAlignment:

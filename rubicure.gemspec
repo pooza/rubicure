@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/sue445/rubicure"
   spec.license       = "MIT"
 
-  spec.required_ruby_version = ">= 2.5.7"
+  spec.required_ruby_version = ">= 2.6.0"
 
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
