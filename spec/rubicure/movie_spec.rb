@@ -13,8 +13,10 @@ describe Rubicure::Movie do
       :super_stars,
       :memories,
       :miracle_universe,
-      :star_song,
+      :song_of_star,
       :miracle_leap,
+      :town_of_dreams,
+      :snow_princess
     ]
   end
 
