@@ -68,12 +68,14 @@ ss:
 memories: &memories
   title: 映画 HUGっと！プリキュア♡ふたりはプリキュア オールスターズメモリーズ
   started_date: 2018-10-27
+all_stars_memories:
+  <<: *memories
 #######################################################
 miracle_universe: &miracle_universe
   title: 映画 プリキュアミラクルユニバース
   started_date: 2019-03-16
 #######################################################
-star_song: &star_song
+song_of_star: &song_of_star
   title: 映画 スター☆トゥインクルプリキュア 星のうたに想いをこめて
   started_date: 2019-10-19
 #######################################################
@@ -81,6 +83,10 @@ miracle_leap: &miracle_leap
   title: 映画 プリキュアミラクルリープ みんなとの不思議な1日
   started_date: 2020-10-31
 #######################################################
-miracle_leap: &dream_city
+town_of_dreams: &town_of_dreams
   title: 映画 ヒーリングっど♥プリキュア ゆめのまちでキュン！っとGoGo!大変身！！
   started_date: 2021-03-20
+#######################################################
+snow_princess: &snow_princess
+  title: 映画 トロピカル～ジュ！プリキュア 雪のプリンセスと奇跡の指輪！
+  started_date: 2021-10-23
