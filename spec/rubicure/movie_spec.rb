@@ -16,7 +16,7 @@ describe Rubicure::Movie do
       :song_of_star,
       :miracle_leap,
       :town_of_dreams,
-      :snow_princess
+      :snow_princess,
     ]
   end
 
