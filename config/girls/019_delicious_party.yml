@@ -6,14 +6,17 @@ cure_precious: &cure_precious
   color:        pink
   created_date: 2022-02-06 # episode 1
   birthday:     8/31
+  cast_birthday: 5/19
+  nicknames:
+    - ゆいぴょん
   transform_message: |-
     コメー！
     プリキュア！デリシャスタンバイ！
     Party Go!
-    ニギニギ
-    コメコメ
-    ハートを
-    コメコメ
+    ニギニギ！
+    コメコメ！
+    ハートを！
+    コメコメ！
     シェアリングエナジー！
     コメー！
     コメコメ）
@@ -41,6 +44,10 @@ cure_spicy: &cure_spicy
   color:        blue
   created_date: 2022-02-27 # episode 4
   birthday:     3/13
+  cast_birthday: 9/9
+  nicknames:
+    - 芙羽さま
+    - ここぴー
   transform_message: |-
     パム！
     プリキュア！デリシャスタンバイ！
@@ -74,12 +81,33 @@ cure_yumyum: &cure_yumyum
   precure_name: キュアヤムヤム
   cast_name:    井口裕香
   color:        yellow
-  # created_date: 2022-xx-xx # episode x
+  created_date: 2022-04-24 # episode 7
   birthday:     7/11
+  cast_birthday: 7/11
+  nicknames:
+    - らんらん
   transform_message: |-
+    メン！
+    プリキュア！デリシャスタンバイ！
+    Party Go!
+    クルクル！
+    メンメン！
+    ミラクル！
+    メンメン！
+    シェアリングエナジー！
+    ワンタン！
+    メンメン！
+    きらめくヌードル・エモーション！
+    キュアヤムヤム！
+    おいしいの独り占め、ゆるさないよ！
   # extra_names:
   attack_messages:
     - |-
+      プリキュア！ヤムヤムラインズ！
+      はー！
+      はー！
+      お腹いっぱい
+      ごちそうさまでした！
   transform_calls:
     - delicioustandby
 yumyum:
