@@ -1,8 +1,8 @@
 cure_precious: &cure_precious
   girl_name:    cure_precious
-  human_name:   和実ゆい
+  human_name:   和実 ゆい
   precure_name: キュアプレシャス
-  cast_name:    菱川花菜
+  cast_name:    菱川 花菜
   color:        pink
   created_date: 2022-02-06 # episode 1
   birthday:     8/31
@@ -39,9 +39,9 @@ precious:
 
 cure_spicy: &cure_spicy
   girl_name:    cure_spicy
-  human_name:   芙羽ここね
+  human_name:   芙羽 ここね
   precure_name: キュアスパイシー
-  cast_name:    清水理沙
+  cast_name:    清水 理沙
   color:        blue
   created_date: 2022-02-27 # episode 4
   birthday:     3/13
@@ -79,9 +79,9 @@ spicy:
 
 cure_yumyum: &cure_yumyum
   girl_name:    cure_yumyum
-  human_name:   華満らん
+  human_name:   華満 らん
   precure_name: キュアヤムヤム
-  cast_name:    井口裕香
+  cast_name:    井口 裕香
   color:        yellow
   created_date: 2022-04-24 # episode 7
   birthday:     7/11
@@ -115,3 +115,39 @@ cure_yumyum: &cure_yumyum
     - delicioustandby
 yumyum:
   <<: *cure_yumyum
+
+cure_finale: &cure_finale
+  girl_name:    cure_finale
+  human_name:   菓彩 あまね
+  precure_name: キュアフィナーレ
+  cast_name:    茅野 愛衣
+  color:        gold
+  created_date: 2022-07-10 # episode 18
+  birthday:     11/24
+  cast_birthday: 9/13
+  transform_message: |-
+    プリキュア！デリシャスタンバイ！
+    Party Go!
+    フルーツ！
+    バニラソーダ！
+    シェアリングエナジー！
+    トッピング！
+    ブリリアント！
+    シャインオン！
+    ジェントルにゴージャスに
+    咲き誇るスウィートネス！
+    キュアフィナーレ！
+    食卓の最後を、このわたしが飾ろう
+    デリシャスパーティ♡プリキュア！
+  # extra_names:
+  attack_messages:
+    - |-
+      クリーミーフルーレ！
+      ブルーミン・ダンシングフルーツ！
+      プリキュア！デリシャスフィナーレ・ファンファーレ！
+      お腹いっぱい
+      ごちそうさまでした！
+  transform_calls:
+    - delicioustandby
+finale:
+  <<: *cure_finale
