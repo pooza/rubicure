@@ -125,6 +125,8 @@ cure_finale: &cure_finale
   created_date: 2022-07-10 # episode 18
   birthday:     11/24
   cast_birthday: 9/13
+  nicknames:
+    - あまねん
   transform_message: |-
     プリキュア！デリシャスタンバイ！
     Party Go!
