@@ -2,7 +2,6 @@ name: test
 on:
   push:
 env:
-  CI: "true"
   RUBYOPT: -EUTF-8
 jobs:
   test:
@@ -23,7 +22,7 @@ jobs:
             allow_failures: "true"
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Cache vendor/bundle
         uses: actions/cache@v1
         id: cache_gem
