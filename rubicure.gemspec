@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/master/CHANGELOG.md"
-  spec.metadata["rubygems_mfa_required"] = "true"
   spec.metadata["documentation_uri"] = "https://sue445.github.io/rubicure/"
+  spec.metadata["rubygems_mfa_required"] = "true"
 
   spec.files = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
 
@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sengiri_yaml", ">= 1.0.0"
 
   spec.add_development_dependency "bundler", ">= 1.3.5"
-  spec.add_development_dependency "coveralls"
+  spec.add_development_dependency "coveralls_reborn"
   spec.add_development_dependency "delorean"
   spec.add_development_dependency "onkcop", "1.0.0.0"
   spec.add_development_dependency "rake"
