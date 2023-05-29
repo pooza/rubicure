@@ -2,10 +2,13 @@ cure_sky: &cure_sky
   girl_name:    cure_sky
   human_name:   ソラ・ハレワタール
   precure_name: キュアスカイ
-  cast_name:    関根明良
+  cast_name:    関根 明良
   color:        blue
   created_date: 2023-02-05 # episode 1
   birthday:     9/20
+  cast_birthday: 12/16
+  nicknames:
+    - ヒーローガール
   transform_message: |-
     ヒーローの出番です！
     スカイミラージュ！
@@ -29,12 +32,15 @@ sky:
 
 cure_prism: &cure_prism
   girl_name:    cure_prism
-  human_name:   虹ヶ丘ましろ
+  human_name:   虹ヶ丘 ましろ
   precure_name: キュアプリズム
-  cast_name:    加隈亜衣
+  cast_name:    加隈 亜衣
   color:        white
   created_date: 2023-02-26 # episode 4
   birthday:     7/16
+  cast_birthday: 9/9
+  nicknames:
+    - ましろん
   transform_message: |-
     ヒーローの出番だよ！
     スカイミラージュ！
@@ -59,12 +65,13 @@ prism:
 
 cure_wing: &cure_wing
   girl_name:    cure_wing
-  human_name:   夕凪ツバサ
+  human_name:   夕凪 ツバサ
   precure_name: キュアウィング
-  cast_name:    村瀬歩
+  cast_name:    村瀬 歩
   color:        orange
   created_date: 2023-04-02 # episode 9
   birthday:     5/21
+  cast_birthday: 12/14
   transform_message: |-
     スカイミラージュ！
     トーンコネクト！
