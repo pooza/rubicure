@@ -94,9 +94,9 @@ wing:
 
 cure_butterfly: &cure_butterfly
   girl_name:    cure_butterfly
-  human_name:   聖あげは
+  human_name:   聖 あげは
   precure_name: キュアバタフライ
-  cast_name:    七瀬彩夏
+  cast_name:    七瀬 彩夏
   color:        pink
   created_date: 2023-06-04 # episode 18
   birthday:     8/8
