@@ -60,8 +60,8 @@ module Rubicure
 
     alias_method :each_without_girls, :each
 
-    def each(&block)
-      girls.each(&block)
+    def each(&)
+      girls.each(&)
     end
 
     # @return [String] json string

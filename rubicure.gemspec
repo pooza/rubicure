@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/sue445/rubicure"
   spec.license       = "MIT"
 
-  spec.required_ruby_version = ">= 3.0"
+  spec.required_ruby_version = ">= 3.1"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "hashie", ">= 2.0.5"
   spec.add_dependency "sengiri_yaml", ">= 1.0.0"
 
-  spec.add_development_dependency "bundler", ">= 1.3.5"
+  spec.add_development_dependency "bundler", ">= 2.0.0"
   spec.add_development_dependency "coveralls_reborn"
   spec.add_development_dependency "delorean"
   spec.add_development_dependency "onkcop", "1.0.0.0"

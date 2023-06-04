@@ -1,17 +1,17 @@
 describe Rubicure::Girl do
   let(:girl) do
     Rubicure::Girl[
-      girl_name:              girl_name,
-      human_name:             human_name,
-      precure_name:           precure_name,
-      cast_name:              cast_name,
-      created_date:           created_date,
-      extra_names:            extra_names,
-      transform_message:      transform_message,
-      attack_messages:        attack_messages,
-      transform_calls:        transform_calls,
-      color:                  color,
-      random_transform_words: random_transform_words,
+      girl_name:,
+      human_name:,
+      precure_name:,
+      cast_name:,
+      created_date:,
+      extra_names:,
+      transform_message:,
+      attack_messages:,
+      transform_calls:,
+      color:,
+      random_transform_words:,
     ]
   end
 
