@@ -1,5 +1,53 @@
 ## master
-[full changelog](http://github.com/sue445/rubicure/compare/v3.2.2...master)
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0...master)
+
+## v3.3.1
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0...v3.3.1)
+
+* Add CureLilian's birthday :birthday:
+  * https://github.com/sue445/rubicure/pull/310
+
+## v3.3.0
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0.rc3...v3.3.0)
+
+* Add Cure Nyammy and Cure Lillian :cat2:
+  * https://github.com/sue445/rubicure/pull/303
+
+## v3.3.0.rc3
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0.rc2...v3.3.0.rc3)
+
+* Add Cure Friendy's birthday :birthday:
+  * https://github.com/sue445/rubicure/pull/307
+
+## v3.3.0.rc2
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0.rc1...v3.3.0.rc2)
+
+* Add Cure Wonderful's birthday :dog:
+  * https://github.com/sue445/rubicure/pull/306
+
+## v3.3.0.rc1
+[full changelog](http://github.com/sue445/rubicure/compare/v3.2.6...v3.3.0.rc1)
+
+* Add Wonderful Precure (only Cure Wonderful and Cure Friendy)
+  * https://github.com/sue445/rubicure/pull/302
+
+## v3.2.6
+[full changelog](http://github.com/sue445/rubicure/compare/v3.2.5...v3.2.6)
+
+* Add `ended_date` of Hirogaru Sky Precure
+  * https://github.com/sue445/rubicure/pull/301
+
+## v3.2.5
+[full changelog](http://github.com/sue445/rubicure/compare/v3.2.4...v3.2.5)
+
+* Support activesupport 7.1
+  * https://github.com/sue445/rubicure/pull/295
+
+## v3.2.4
+[full changelog](http://github.com/sue445/rubicure/compare/v3.2.3...v3.2.4)
+
+* Add `Precure.all_stars(:f)`
+  * https://github.com/sue445/rubicure/pull/291
 
 ## v3.2.3
 [full changelog](http://github.com/sue445/rubicure/compare/v3.2.2...v3.2.3)

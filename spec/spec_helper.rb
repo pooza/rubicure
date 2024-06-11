@@ -35,6 +35,9 @@ require "rspec/its"
 require "rspec/collection_matchers"
 require "delorean"
 require "tempfile"
+
+# NOTE: requires minimum dependencies
+require "active_support/core_ext/string/filters"
 require "active_support/core_ext/time/zones"
 
 # Requires supporting ruby files with custom matchers and macros, etc,

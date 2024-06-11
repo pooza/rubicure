@@ -83,10 +83,6 @@ miracle_leap: &miracle_leap
   title: 映画 プリキュアミラクルリープ みんなとの不思議な1日
   started_date: 2020-10-31
 #######################################################
-town_of_dreams: &town_of_dreams
-  title: 映画 ヒーリングっど♥プリキュア ゆめのまちでキュン！っとGoGo!大変身！！
-  started_date: 2021-03-20
-#######################################################
-snow_princess: &snow_princess
-  title: 映画 トロピカル～ジュ！プリキュア 雪のプリンセスと奇跡の指輪！
-  started_date: 2021-10-23
+f: &f
+  title: 映画プリキュアオールスターズF
+  started_date: 2023-09-15
