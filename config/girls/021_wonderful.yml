@@ -1,11 +1,12 @@
 cure_wonderful: &cure_wonderful
   girl_name:    cure_wonderful
-  human_name:   犬飼こむぎ
+  human_name:   犬飼 こむぎ
   precure_name: キュアワンダフル
-  cast_name:    長縄まりあ
+  cast_name:    長縄 まりあ
   color:        pink
   created_date: 2024-02-04 # episode 1
   birthday:     5/13
+  cast_birthday: 8/5
   transform_message: |-
     ワンダフルパクト！
     プリキュア！マイエボリューション！
@@ -32,12 +33,13 @@ wonderful:
 
 cure_friendy: &cure_friendy
   girl_name:    cure_friendy
-  human_name:   犬飼いろは
+  human_name:   犬飼 いろは
   precure_name: キュアフレンディ
-  cast_name:    種崎敦美
+  cast_name:    種崎 敦美
   color:        purple
   created_date: 2024-02-11 # episode 2
   birthday:     8/7
+  cast_birthday: 9/27
   transform_message: |-
     ワンダフルパクト！
     プリキュア！マイエボリューション！
@@ -64,12 +66,13 @@ friendy:
 
 cure_nyammy: &cure_nyammy
   girl_name:    cure_nyammy
-  human_name:   猫屋敷ユキ
+  human_name:   猫屋敷 ユキ
   precure_name: キュアニャミー
-  cast_name:    松田颯水
+  cast_name:    松田 颯水
   color:        blue
   created_date: 2024-05-26 # episode 17
   birthday:     12/21
+  cast_birthday: 7/17
   transform_message: |-
     シャイニーキャッツパクト！
     プリキュア！マイエボリューション！
@@ -93,12 +96,13 @@ nyammy:
 
 cure_lillian: &cure_lillian
   girl_name:    cure_lillian
-  human_name:   猫屋敷まゆ
+  human_name:   猫屋敷 まゆ
   precure_name: キュアリリアン
-  cast_name:    上田麗奈
+  cast_name:    上田 麗奈
   color:        green
   created_date: 2024-06-09 # episode 19
   birthday:     11/5
+  cast_birthday: 1/17
   transform_message: |-
     シャイニーキャッツパクト！
     プリキュア！マイエボリューション！
