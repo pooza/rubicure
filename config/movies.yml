@@ -73,6 +73,10 @@ miracle_universe: &miracle_universe
   title: 映画 プリキュアミラクルユニバース
   started_date: 2019-03-16
 #######################################################
+song_of_star: &song_of_star
+  title: 映画 スター☆トゥインクルプリキュア 星のうたに想いをこめて
+  started_date: 2019-10-19
+#######################################################
 miracle_leap: &miracle_leap
   title: 映画 プリキュアミラクルリープ みんなとの不思議な1日
   started_date: 2020-10-31
