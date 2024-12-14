@@ -4,6 +4,7 @@ cure_lovely: &cure_lovely
   precure_name: キュアラブリー
   cast_name:    中島 愛
   created_date: 2014-02-02 # episode 1
+  birthday:     10/12
   color:        pink
   cast_birthday: 6/5
   transform_message: |-
@@ -43,6 +44,7 @@ cure_princess: &cure_princess
   precure_name:    キュアプリンセス
   cast_name:       潘 めぐみ
   created_date:    2014-02-02 # episode 1
+  birthday:        4/1
   color:           blue
   cast_birthday: 6/3
   nicknames:
@@ -79,6 +81,7 @@ cure_honey: &cure_honey
   precure_name: キュアハニー
   cast_name:    北川 里奈
   created_date: 2014-03-15 # NS3
+  birthday:     8/2
   color:        yellow
   cast_birthday: 7/6
   nicknames:
@@ -117,6 +120,7 @@ cure_fortune: &cure_fortune
   precure_name: キュアフォーチュン
   cast_name:    戸松 遥
   created_date: 2014-06-29
+  birthday:     10/7
   color:        purple
   cast_birthday: 2/4
   nicknames:

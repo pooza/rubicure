@@ -1,5 +1,23 @@
 ## master
-[full changelog](http://github.com/sue445/rubicure/compare/v3.3.0...master)
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.4...master)
+
+## v3.3.4
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.3...v3.3.4)
+
+* Add Happiess Charge Precure's birthday
+  * https://github.com/sue445/rubicure/pull/319
+
+## v3.3.3
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.2...v3.3.3)
+
+* Fix CureNyammy and CureLillian's transform message :cat:
+  * https://github.com/sue445/rubicure/pull/314
+
+## v3.3.2
+[full changelog](http://github.com/sue445/rubicure/compare/v3.3.1...v3.3.2)
+
+* Tweak CureNyammy and CureLillian's attack messages :cat:
+  * https://github.com/sue445/rubicure/pull/311
 
 ## v3.3.1
 [full changelog](http://github.com/sue445/rubicure/compare/v3.3.0...v3.3.1)
