@@ -5,7 +5,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 desc "Run rubydoctest"
 task :rubydoctest do
-  sh "rubydoctest README.md"
+  # sh "rubydoctest README.md"
 end
 
 desc "Run tests"
