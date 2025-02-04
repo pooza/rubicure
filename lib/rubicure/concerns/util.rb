@@ -28,7 +28,7 @@ module Rubicure
       # @param yaml_file [String]
       # @return [Hash]
       def load_yaml_file(yaml_file)
-        YAML.safe_load(File.read(yaml_file), permitted_classes: [Date], aliases: true)
+        YAML.safe_load_file(yaml_file, permitted_classes: [Date], aliases: true)
       end
     end
   end

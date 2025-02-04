@@ -275,7 +275,7 @@ module Rubicure
     end
 
     colors.each do |color|
-      define_method "#{color}?" do
+      define_method :"#{color}?" do
         self.color.to_sym == color
       end
     end
@@ -307,10 +307,10 @@ module Rubicure
         end
       end
 
-      def method_missing(method_name, *args)
+      def method_missing(method_name, *)
         return super unless respond_to_missing?(method_name, false)
 
-        transform!(*args)
+        transform!(*)
       end
 
       def respond_to_missing?(method_name, _include_private)

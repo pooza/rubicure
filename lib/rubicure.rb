@@ -33,8 +33,8 @@ require "rubicure/cure_scarlet"
 require "rubicure/cure_finale"
 
 module Precure
-  def self.method_missing(name, *args, &)
-    Rubicure::Core.instance.send(name, *args, &)
+  def self.method_missing(name, ...)
+    Rubicure::Core.instance.send(name, ...)
   end
 
   def self.respond_to_missing?(name, include_private)
