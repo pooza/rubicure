@@ -13,11 +13,11 @@ module Rubicure
       end
     end
 
-    def method_missing(name, *args)
+    def method_missing(name, *)
       unmarked_precure = Rubicure::Series.find(:unmarked)
 
       if unmarked_precure.respond_to?(name)
-        unmarked_precure.send(name, *args)
+        unmarked_precure.send(name, *)
       else
         super
       end

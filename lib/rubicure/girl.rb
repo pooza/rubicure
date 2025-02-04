@@ -307,10 +307,10 @@ module Rubicure
         end
       end
 
-      def method_missing(method_name, *args)
+      def method_missing(method_name, *)
         return super unless respond_to_missing?(method_name, false)
 
-        transform!(*args)
+        transform!(*)
       end
 
       def respond_to_missing?(method_name, _include_private)
