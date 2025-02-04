@@ -11,13 +11,12 @@ inherit_gem:
 AllCops:
   AllowSymlinksInCacheRootDirectory: true
   DisplayCopNames: true
-  Exclude:
-    - '**/._*'
-    - 'vendor/**/*'
   TargetRubyVersion: 3.1
   NewCops: enable
 
   Exclude:
+    - '**/._*'
+    - 'vendor/**/*'
     - 'gemfiles/vendor/**/*'
 
     # c.f. https://github.com/rubocop/rubocop/blob/v1.56.4/config/default.yml#L65-L69
@@ -25,6 +24,9 @@ AllCops:
     - 'tmp/**/*'
     - 'vendor/**/*'
     - '.git/**/*'
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
 
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table

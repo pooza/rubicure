@@ -275,7 +275,7 @@ module Rubicure
     end
 
     colors.each do |color|
-      define_method "#{color}?" do
+      define_method :"#{color}?" do
         self.color.to_sym == color
       end
     end
