@@ -1,11 +1,12 @@
 cure_idol: &cure_idol
   girl_name:    cure_idol
-  human_name:   咲良うた
+  human_name:   咲良 うた
   precure_name: キュアアイドル
-  cast_name:    松岡美里
+  cast_name:    松岡 美里
   color:        pink
   created_date: 2025-02-02 # episode 1
   birthday: 3/27
+  cast_birthday: 3/23
   transform_message: |-
     プリキュア！ライトアップ！
     キラキラドレスチェンジ！YEAH!
@@ -37,12 +38,13 @@ idol:
 
 cure_wink: &cure_wink
   girl_name:    cure_wink
-  human_name:   蒼風なな
+  human_name:   蒼風 なな
   precure_name: キュアウインク
-  cast_name:    髙橋ミナミ
+  cast_name:    髙橋 ミナミ
   color:        blue
   created_date: 2025-02-16 # episode 3
   birthday: 7/6
+  cast_birthday: 12/20
   transform_message: |-
     プリキュア！ライトアップ！
     キラキラドレスチェンジ！YEAH!
@@ -73,12 +75,13 @@ wink:
 
 cure_kyunkyun: &cure_kyunkyun
   girl_name:    cure_kyunkyun
-  human_name:   紫雨こころ
+  human_name:   紫雨 こころ
   precure_name: キュアキュンキュン
-  cast_name:    高森奈津美
+  cast_name:    高森 奈津美
   color:        purple
   created_date: 2025-03-23 # episode 7
   birthday: 5/11
+  cast_birthday: 2/14
   transform_message: |-
     プリキュア！ライトアップ！
     キラキラドレスチェンジ！YEAH!
