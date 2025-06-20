@@ -125,10 +125,11 @@ cure_zukyoon: &cure_zukyoon
   girl_name:    cure_zukyoon
   human_name:   プリルン
   precure_name: キュアズキューン
-  cast_name:    南條愛乃
+  cast_name:    南條 愛乃
   color:        white
   created_date: 2025-06-15 # episode 19
-  birthday:     10/19
+  birthday:     10/09
+  cast_birthday: 7/12
   transform_message: |-
     プリキュア！ライトアップ！
     キラキラショータイム！YEAH!
@@ -163,10 +164,11 @@ cure_kiss: &cure_kiss
   girl_name:    cure_kiss
   human_name:   メロロン
   precure_name: キュアキッス
-  cast_name:    南條愛乃
+  cast_name:    花井 美春
   color:        black
   created_date: 2025-06-15 # episode 19
   birthday:     12/07
+  cast_birthday: 2/8
   transform_message: |-
     プリキュア！ライトアップ！
     キラキラショータイム！YEAH!
